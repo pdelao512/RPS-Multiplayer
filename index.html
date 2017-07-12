@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>Rock, Paper, Scissors</title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- Link to the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Links to Firebase -->
 	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 	
 </head>
 <body>
@@ -40,7 +43,7 @@
 		<div class="col-xs-4"></div>
 	</div>
 
-	<div class="row text-center" id="user-section">
+	<div class="row text-center" id="userSection">
 			<div class="user col-xs-4">
 				<h4>Player 1: </h4>
 				<p id="player1"></p>
@@ -49,8 +52,6 @@
 				<p id="ties1"></p>
 			</div>
 			<div id="instructions-div" class="text-center col-xs-4">
-				<!-- <h4>Instructions: </h4>
-				<p id="instructions">Enter your name above to join the game.</p> -->
 				<p id="choice1"></p>
 				<p id="choice2"></p>
 			</div>
@@ -67,16 +68,13 @@
 		<div class="col-xs-1"></div>
 		<div class="col-xs-10 text-center">
 			<div class="choice" id="rock" data-choice="rock">
-				<h4 class="text-center">Rock</h4>
-				
+				<img class="round-img-responsive choice-img" src="assets/images/cuteRock.jpeg"/>
 			</div>
 			<div class="choice" id="paper" data-choice="paper">
-				<h4 class="text-center">Paper</h4>
-				
+				<img class="round-img-responsive choice-img" src="assets/images/cutePaper.jpg"/>
 			</div>
 			<div class="choice" id="scissors" data-choice="scissors">
-				<h4 class="text-center">Scissors</h4>
-				
+				<img class="round-img-responsive choice-img" src="assets/images/cuteScissors.jpg"/>
 			</div>
 		</div>
 		<div class="col-xs-1"></div>

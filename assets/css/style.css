@@ -1,0 +1,57 @@
+body{
+  background-image: url("../images/background.jpeg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*color: white;*/
+ /* font-family: 'Merriweather', serif;*/
+}
+h1.text-center {
+  font-size: 50px;
+  font-family: 'Patua One', cursive;
+  color: #00ae88;
+}
+h2.text-center {
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  color: #36cae8;
+}
+h4 {
+  font-size: 30px;
+  font-family: 'Patua One', cursive;
+  color: #5c3079;
+}
+.round-img-responsive{
+  width: 200px;
+  height: 200px;
+}
+#user-section{
+  margin-top: 30px;
+}
+#choice-section{
+  margin-top: 20px;
+  display: none;
+}
+.choice{
+  display: inline-block;
+  border: 2px solid black;
+  margin: 5px;
+  color: black;
+}
+#play-again{
+  display: none;
+}
+#chatWindow{
+  background-color: white;
+  height: 200px;
+  overflow: auto;
+  color: black;
+  padding: 10px;
+}
+#chat-row{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /*display: none;*/
+}
+#input{
+  margin-top: 5px;
+}

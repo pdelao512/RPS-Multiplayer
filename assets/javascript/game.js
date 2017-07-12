@@ -8,7 +8,7 @@ $(document).ready(function(){
     storageBucket: "rock-paper-sissors-a651f.appspot.com",
   };
   firebase.initializeApp(config);
-  //firebase references//
+  //freference Firebase//
   var database = firebase.database();
 
   var data = database.ref('data');
